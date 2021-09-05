@@ -462,6 +462,21 @@
     <br><hr><hr>
 
     <h1 class="thanks"><marquee behavior="scroll" direction="left" > Thanks For Visiting</marquee></h1>
+    
+    <hr>
+    <hr>
+    
+    <p id="result"></p>
+    
+    <script>
+        function displayWindowSize() {
+        var w = window.outerWidth;
+        var h = window.outerHeight;
+        var txt = "Your Device Size is : width=" + w + ", height=" + h;
+        document.getElementById("result").innerHTML = txt;
+    }
+    window.onresize = displayWindowSize;
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
