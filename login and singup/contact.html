@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conatct Us Page</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <!-- <link rel="stylesheet" href="css/Style.css"> -->
+    <!-- <link rel="stylesheet" href="css/footer.css"> -->
+
+</head>
+
+<body bgcolor="blue">
+
+
+    <hr>
+    <hr>
+
+    <form action="Submit.html" class="contact" method="post">
+        <div id="contact">
+            <h2>Name:-</h2> <input type="text" placeholder="Enter Name" ><br>
+            <h2>Email-Id:-</h2> <input type="email" placeholder="Enter Email-Id"><br>
+            <h2>Phone-No</h2> <input type="number" placeholder="Enter Phone-No."><br>
+
+            <label for="Gender"><h2>Gender:-</h2></label>
+            <h4>MALE</h4><input type="radio" name="Gender" value="Male"><br>
+            <h4>FEMALE</h4> <input type="radio" name="Gender" value="Female">
+            <h4>TRANSGENDER</h4> <input type="radio" name="Gender" value="TransGender"><br>
+        <textarea name="Query" id="comment" cols="30" rows="5"
+                placeholder="Enter Your Query And Send To Me"></textarea><br>
+
+    <button type="submit" class="submit" onclick="alert('your massage sent succesfully')">Send</button>
+    <button type="submit" class="submit" onclick="print()">Print</button>
+
+
+        </div>
+    </form>
+
+
+
+
+
+</body>
